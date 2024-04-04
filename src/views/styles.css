@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid #757575;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.13);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card__description {
+  margin: 30px 0 16px;
+}
+
+.image-slider {
+  width: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 16px;
+}
+
+.slick-dots {
+  bottom: 5px;
+}
+
+.slick-dots li button {
+  width: 10px;
+  height: 10px;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.lds-hourglass,
+.lds-hourglass:after {
+  box-sizing: border-box;
+}
+.lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 32px solid #333;
+  border-color: #333 transparent #333 transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
