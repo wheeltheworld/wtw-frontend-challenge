@@ -3,9 +3,9 @@ const hotels = [
     id: 1,
     name: "Hotel ABC",
     images: [
-      "https://source.unsplash.com/800x600/?hotel",
-      "https://source.unsplash.com/800x601/?hotel",
-      "https://source.unsplash.com/800x602/?hotel"
+      "https://assets.wheeltheworld.com/public/listings/placesToStay/1695072807468_7b616014cc522cfa32ed3b3283ea3c35.png",
+      "https://assets.wheeltheworld.com/public/listings/placesToStay/1695072807468_7b616014cc522cfa32ed3b3283ea3c35.png",
+      "https://assets.wheeltheworld.com/public/listings/placesToStay/1695072807468_7b616014cc522cfa32ed3b3283ea3c35.png"
     ],
     description: "Descripción del Hotel ABC",
     price: 100,
@@ -15,8 +15,8 @@ const hotels = [
     id: 2,
     name: "Hotel XYZ",
     images: [
-      "https://source.unsplash.com/800x600/?hotel",
-      "https://source.unsplash.com/800x601/?hotel"
+      "https://assets.wheeltheworld.com/public/listings/placesToStay/1695072807468_7b616014cc522cfa32ed3b3283ea3c35.png",
+      "https://assets.wheeltheworld.com/public/listings/placesToStay/1695072807468_7b616014cc522cfa32ed3b3283ea3c35.png"
     ],
     description: "Descripción del Hotel XYZ",
     price: 120,
@@ -26,7 +26,7 @@ const hotels = [
     id: 3,
     name: "Hotel 123",
     images: [
-      "https://source.unsplash.com/800x600/?hotel"
+      "https://assets.wheeltheworld.com/public/listings/placesToStay/1695072807468_7b616014cc522cfa32ed3b3283ea3c35.png"
     ],
     description: "Descripción del Hotel 123",
     price: 150,
